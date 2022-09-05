@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_link_items",
+  "info": {
+    "displayName": "link item",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "footer_links": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::footer-link.footer-link"
+    }
+  }
+}

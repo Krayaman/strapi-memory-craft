@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_carousel_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
