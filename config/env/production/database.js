@@ -9,6 +9,7 @@ module.exports = ({ env }) => ({
       port: config.port,
       database: config.database,
       user: config.user,
+      playgroundAlways: true,
       password: config.password,
       ssl: {
         rejectUnauthorized: false
